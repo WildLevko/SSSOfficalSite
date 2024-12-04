@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://gadget.phileweb.com/wp-content/uploads/2024/08/FlashMovie_Shutterstock.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1-1{
+    text-align: center;
+    color:rgb(255, 251, 251);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.538);
+    border: 4px dashed rgba(46, 45, 45, 0.411);
+    border-radius: 10px;
+}
+.Cm1 {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid goldenrod;
+    color: rgb(36, 3, 54);
+}
+.Cm1 div {
+    color: rgb(133, 32, 32);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteiner{
+    display: grid;
+    background-color: rgba(46, 45, 45, 0.411);
+    justify-content: space-between;
+    align-items: center;
+    border: 8px solid rgba(152, 0, 182, 0.452);
+    grid-gap: 3;
+    border-radius: 11px;
+}
+.conteiner > div {
+    background: rgba(214, 244, 251, 0.332);
+    border-radius: 10px;
+}

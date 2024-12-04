@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://bogatyr.club/uploads/posts/2023-03/1679143008_bogatyr-club-p-fon-kriptovalyuta-foni-instagram-43.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cyberbankleadorboard1{
+    text-align: center;
+    color:rgb(251, 234, 89);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.spisok1{
+    text-align: left;
+    color:rgb(255, 85, 0);
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.spisok2{
+    text-align: left;
+    color:rgb(0, 247, 255);
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.spisok3{
+    text-align: left;
+    color:rgb(179, 255, 0);
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.spisok4{
+    text-align: left;
+    color:rgb(138, 138, 138);
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 100px;
+}

@@ -1,0 +1,81 @@
+body{
+    background-image: url("https://wallpapers.com/images/featured/cyber-background-qrvi98v4g2ezuomr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spisok1{
+    text-align: left;
+    color:goldenrod;
+    font-family: monospace;
+    font-size: 20;
+    margin-left: 100px;
+}
+.spisok2{
+    text-align: left;
+    color:rgb(77, 247, 236);
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.spisok3{
+    text-align: left;
+    color:rgb(247, 110, 140);
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.spisok4{
+    text-align: left;
+    color:rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.h1-1{
+    text-align: center;
+    color:rgb(155, 250, 222);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.spisok4l1{
+    text-align: left;
+    color:rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.conteiner1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding: 1px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.conteiner1 div{
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.conteiner1 .sp2{
+    padding: 30px;
+    text-align: center;
+    color:rgb(255, 255, 0);
+    font-family: impact;
+    font-size: 60px;
+    border: 3px dashed red;
+    background-color: rgba(255, 81, 0, 0.277);
+    
+}
+.conteiner1 .sp{
+    padding: 50px;
+    text-align: left;
+    color:rgb(0, 255, 26);;
+    font-family: monospace;
+    font-size: 27px;
+    border: 2px solid rgb(0, 255, 213);
+    background-color: rgba(5, 255, 59, 0.277);
+    margin-left: 52px;
+}
