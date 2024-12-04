@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/cyber-background-wtbsuxgddl347htc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1-1{
+    color:rgb(126, 0, 175);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 200px;
+    font-family:'Courier New', Courier, monospace;
+}
+.h1-2{
+    color:rgb(234, 255, 0);
+    text-align: right;
+    font-size: 40px;
+    margin-left: 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+.h1-3{
+    color:rgb(21, 195, 73);
+    text-align: left;
+    font-size: 40px;
+    margin-left: 450px;
+    font-family:'Courier New', Courier, monospace;
+}
+.h1-4{
+    color:rgb(41, 204, 180);
+    text-align: center;
+    font-size: 40px;
+    margin-left: 555px;
+    font-family:'Courier New', Courier, monospace;
+}
