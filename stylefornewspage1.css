@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/watercolor-winter-season-celebration-background_23-2149872800.jpg?t=st=1733386085~exp=1733389685~hmac=39bb0bc20d8fccc668046c3b641a7840edecd01509358cc687b6e55c916a8a45&w=1800");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1-4{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 40px;
+    margin-left: 555px;
+    border: 2px dashed whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+}
