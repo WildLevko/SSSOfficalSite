@@ -67,3 +67,13 @@ body{
 }
 .Maksim {background-color: rgb(131, 131, 131);
 }
+.h1-4{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 40px;
+    margin-left: 555px;
+    border: 2px dashed whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+}
