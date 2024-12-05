@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://wallpapers.com/images/featured/cyber-background-qrvi98v4g2ezuomr.jpg");
+    background-image: url("https://img.freepik.com/free-vector/watercolor-winter-season-celebration-background_23-2149872808.jpg?t=st=1733386374~exp=1733389974~hmac=3ab3e798775b4b12125fe7ef6d2c7451716ec066e41948b7e24973d394e6e130&w=1800");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -9,6 +9,8 @@ body{
     font-family: monospace;
     font-size: 20;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok2{
     text-align: left;
@@ -16,6 +18,8 @@ body{
     font-family: monospace;
     font-size: 20px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok3{
     text-align: left;
@@ -23,6 +27,8 @@ body{
     font-family: monospace;
     font-size: 20px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok4{
     text-align: left;
@@ -30,6 +36,8 @@ body{
     font-family: monospace;
     font-size: 20px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .h1-1{
     text-align: center;
@@ -72,7 +80,7 @@ body{
 .conteiner1 .sp{
     padding: 50px;
     text-align: left;
-    color:rgb(0, 255, 26);;
+    color:rgb(2, 152, 17);;
     font-family: monospace;
     font-size: 27px;
     border: 2px solid rgb(0, 255, 213);

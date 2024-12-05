@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://bogatyr.club/uploads/posts/2023-03/1679143008_bogatyr-club-p-fon-kriptovalyuta-foni-instagram-43.jpg");
+    background-image: url("https://img.freepik.com/free-photo/aesthetic-leaf-watercolor-background-purple-winter-season_53876-126813.jpg?t=st=1733386623~exp=1733390223~hmac=358625311f57f67c476ee9b96b70e66c19b60b80b70a0044868a0bbc5b1cb5d0&w=1800");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -8,6 +8,8 @@ body{
     color:rgb(251, 234, 89);
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok1{
     text-align: left;
@@ -15,6 +17,8 @@ body{
     font-family: monospace;
     font-size: 25px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok2{
     text-align: left;
@@ -22,6 +26,8 @@ body{
     font-family: monospace;
     font-size: 25px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok3{
     text-align: left;
@@ -29,13 +35,17 @@ body{
     font-family: monospace;
     font-size: 25px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .spisok4{
     text-align: left;
-    color:rgb(138, 138, 138);
+    color:rgb(255, 255, 255);
     font-family: monospace;
     font-size: 25px;
     margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
 }
 .h1-4{
     color:rgb(255, 255, 255);
