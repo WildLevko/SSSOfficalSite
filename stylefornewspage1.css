@@ -13,3 +13,50 @@ body{
     border: 2px dashed whitesmoke;
     font-family:'Courier New', Courier, monospace;
 }
+.h1-1{
+    text-align: center;
+    color:rgb(155, 250, 222);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.469);
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.conteiner{
+    display: grid;
+    background-color: rgba(46, 45, 45, 0.411);
+    justify-content: center;
+    align-items: center;
+    border: 8px solid rgba(152, 0, 182, 0.452);
+    grid-gap: 3;
+    border-radius: 11px;
+    margin-bottom: 30px;
+}
+.conteiner .today{
+    width: 90%;
+    text-align: center;
+    color: rgb(80, 29, 3);
+    background-color: rgba(0, 255, 255, 0.473);
+    border: 3px solid rgb(63, 133, 49);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.h1-1{
+    background-color: rgba(0, 0, 0, 0.394);
+    color: aliceblue;
+    border: 2px solid rgba(2, 44, 41, 0.565);
+    border-radius: 11px;
+}
+.h4-1{
+    background-color: rgba(0, 0, 0, 0.394);
+    color: rgb(196, 230, 176);
+    border: 2px dashed rgba(44, 2, 2, 0.565);
+    border-radius: 11px;
+}
+.br-1{
+    background-color: rgba(0, 0, 0, 0.394);
+    color: rgb(246, 199, 251);
+    border: 2px solid rgba(44, 41, 2, 0.565);
+    border-radius: 11px;
+}
