@@ -97,3 +97,18 @@ body{
     border: 2px dashed whitesmoke;
     font-family:'Courier New', Courier, monospace;
 }
+.conteiner1 .sp3{
+    padding: 50px;
+    text-align: center;
+    color:rgb(74, 8, 154);;
+    font-family: impact;
+    font-size: 27px;
+    border: 2px solid rgb(136, 170, 241);
+    background-color: rgba(5, 243, 255, 0.291);
+    margin-left: 52px;
+}
+.foto1{
+    position: absolute;
+    top: 270px;
+    right: 1170px;
+}

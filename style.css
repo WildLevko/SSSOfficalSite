@@ -36,6 +36,50 @@ body{
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.384);
     border-radius: 10px;
-    margin-left: 555px;
+    margin-left: 620px;
+    font-family:'Courier New', Courier, monospace;
+}
+.h1-5{
+    color:rgb(255, 0, 0);
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    font-size: 40px;
+    margin-left: 160px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.foto1{
+    position: absolute;
+    bottom: 450px;
+    right: 1px;
+}
+.TUTE{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    font-size: 40px;
+    font-family: cursive ;
+    background-color: rgba(172, 255, 227, 0.558);
+    border: 5px double rgb(106, 92, 234);
+    color:rgb(255, 183, 74)
+}
+.foto2{
+    position: absolute;
+    bottom: 615px;
+    right: 830px;
+}
+.foto3{
+    position: absolute;
+    bottom: 565px;
+    right: 1305px;
+}
+.b1{
+    color:rgb(97, 92, 243);
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-left: 535px;
     font-family:'Courier New', Courier, monospace;
 }
