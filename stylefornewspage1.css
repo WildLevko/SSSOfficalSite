@@ -35,9 +35,9 @@ body{
 .conteiner .today{
     width: 90%;
     text-align: center;
-    color: rgb(80, 29, 3);
-    background-color: rgba(0, 255, 255, 0.473);
-    border: 3px solid rgb(63, 133, 49);
+    color: rgb(4, 3, 80);
+    background-color: rgba(255, 0, 0, 0.473);
+    border: 3px solid rgb(125, 49, 133);
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
@@ -50,7 +50,7 @@ body{
 }
 .h4-1{
     background-color: rgba(0, 0, 0, 0.394);
-    color: rgb(196, 230, 176);
+    color: rgb(218, 176, 230);
     border: 2px dashed rgba(44, 2, 2, 0.565);
     border-radius: 11px;
 }
