@@ -1,5 +1,4 @@
 body{
-    background-image: url("https://img.freepik.com/free-photo/blue-background-watercolors-christmas_1048-3836.jpg?t=st=1733386142~exp=1733389742~hmac=5d68e572984b32a14c1781eec196a185520d90bc48dfb22f0e465f11346212d7&w=2000");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -51,8 +50,8 @@ body{
 
 .foto1{
     position: absolute;
-    bottom: 450px;
-    right: 1px;
+    bottom: 60%;
+    right: 1%;
 }
 .TUTE{
     position: absolute;
@@ -66,13 +65,13 @@ body{
 }
 .foto2{
     position: absolute;
-    bottom: 615px;
-    right: 830px;
+    bottom: 80%;
+    right: 58%;
 }
 .foto3{
     position: absolute;
-    bottom: 565px;
-    right: 1305px;
+    bottom: 73%;
+    right: 90%;
 }
 .b1{
     color:rgb(97, 92, 243);
@@ -82,4 +81,12 @@ body{
     border-radius: 10px;
     margin-left: 535px;
     font-family:'Courier New', Courier, monospace;
+}
+#demotext {
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20%;
 }
