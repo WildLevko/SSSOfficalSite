@@ -1,0 +1,149 @@
+
+.TUTE{
+    width: 24%;
+    font-size: 35px;
+    font-family: cursive ;
+    background-color: rgba(70, 116, 100, 0.558);
+    border: 5px double rgb(106, 92, 234);
+    color:rgb(162, 240, 131);
+    border-radius: 20px;
+    margin: 20px ;
+    color: #92a5de;
+    text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2);
+    color: #92a5de;
+    background-color: rgba(70, 116, 100, 0.558);
+    border: 5px double rgb(106, 92, 234);
+    padding: 17px;
+    box-shadow: 0 0 60px 0 rgba(3,170,151,1),
+	inset 17px -45px 84px 27px #0C819C8F,
+	0 0 40px 10px rgba(20, 219, 245, 1),
+	inset 0 0 10px 0 #84B8F2;
+}
+/* Общие стили */
+body {
+    background-image: url("https://img.freepik.com/free-photo/snowflakes-blue-winter-background_53876-129046.jpg?t=st=1733742140~exp=1733745740~hmac=bd3ab9e43a5c5ccd0c86dc685092e56b17130a08e9ebb96c4e0ce3bb21b48e9a&w=1800");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header{
+    background: rgb(215,223,255);
+    background: linear-gradient(0deg, rgba(215,223,255,0) 0%, rgba(3,170,151,1) 100%);  
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Три равные колонки */
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 60px 0 rgba(12, 255, 230, 1),
+    inset -70px -54px 80px 20px #080707,
+    0 0 40px 10px rgba(245, 20, 245, 0.54),
+    inset 0 0 10px 0 #ffb3d5;
+}
+
+/* Стили колонок */
+.column {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9eef7;
+}
+
+.text-column p {
+    color: #333;
+    background-color: #00000049;
+    border: 2px dashed rgba(0, 0, 0, 0.445);
+    border-radius: 7px;
+    font-size: 20px;
+    color: #074651;
+background: #556677;
+letter-spacing: .1em;
+text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+color: #074651;
+background: #556677;
+}
+
+.levels-column p {
+    color: #0056b3;
+    font-weight: bold;
+    background-color: #00000049;
+    border: 2px dashed rgba(0, 0, 0, 0.445);
+    border-radius: 7px;
+    font-size: 20px;
+    color: transparent;
+background: #FFFFFF;
+text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgba(77,77,77,1);
+}
+
+.premium-column p {
+    color: #a83232;
+    font-style: italic;
+    background-color: #00000049;
+    border: 2px dashed rgba(0, 0, 0, 0.445);
+    border-radius: 7px;
+    font-size: 20px;
+    color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+color: #FFFFFF;
+background: #333333;
+}
+.text-column .p100ob{
+    color: rgb(140, 232, 247);
+    font-family: impact;
+    font-size: 30px;
+    border: 2px dotted rgba(0, 30, 54, 0.445);
+    border-radius: 7px;
+}
+.levels-column .p100lvl{
+    color: rgba(59, 56, 150, 0.414);
+    font-family: impact;
+    font-size: 30px;
+    border: 2px solid rgba(5, 10, 77, 0.445);
+    border-radius: 7px;
+}
+.premium-column .p100pr{
+    color: rgb(226, 74, 40);
+    font-family: impact;
+    font-size: 30px;
+    border: 3px double rgba(116, 79, 5, 0.445);
+    border-radius: 7px;
+}
+.h1-4{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 40px;
+    margin-left: 555px;
+    border: 2px dashed whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+}
+.p100pr{
+    color: rgb(226, 74, 40);
+    font-family: impact;
+    font-size: 30px;
+    border: 3px double rgba(116, 79, 5, 0.445);
+    border-radius: 7px;
+    background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+color: #FFFFFF;
+background: #333333;
+    text-align: center;
+}
