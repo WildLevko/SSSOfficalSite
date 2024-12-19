@@ -90,6 +90,9 @@ nav ul{
     justify-content: center;
     text-align: center;
     border: 3px double rgba(0, 238, 255, 0.678);
+    position: absolute;
+    top: 45%;
+    width: 96%;
 }
 nav li{
     display: block;
@@ -118,10 +121,11 @@ nav li ul{
     display: none;
     position: absolute;
     left: 34%;
-    top: 60%;
+    top: 96%;
     padding: 20px;
+    width: 20%;
 }
 footer{
     color: blueviolet;
-    margin-top: 20%;
+    margin-top: 30%;
 }
