@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://www.google.com/imgres?imgurl=https://img.freepik.com/premium-photo/green-wallpaper-with-black-background-green-background_147933-7900.jpg?w%3D360&tbnid=RxElLHy07HXz_M&vet=1&imgrefurl=https://ru.freepik.com/premium-ai-image/green-wallpaper-with-black-background-green-background_46346822.htm&docid=yfVXtYpRlMaB1M&w=360&h=240&hl=uk-UA&source=sh/x/im/m1/4&kgs=da1541d3cb5289d7&safe=active&ssui=on");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#demotext {
+    color: hsl(0, 22%, 65%);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: hsl(0, 22%, 65%);
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20%;
+}
