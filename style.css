@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1900px)
+@media only screen and (max-width: 3400px)
 {
   body{
       background-image: url("https://img.freepik.com/free-photo/blue-background-watercolors-christmas_1048-3836.jpg?t=st=1733386142~exp=1733389742~hmac=5d68e572984b32a14c1781eec196a185520d90bc48dfb22f0e465f11346212d7&w=2000");
@@ -128,10 +128,8 @@
     color: blueviolet;
     margin-top: 30%;
   }} 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 1200px)
 {
-    body{
-    }
     .h1-1{
         color:rgb(126, 0, 175);
         text-align: center;
