@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1700px)
 {
     body{
         background-image: url("https://img.freepik.com/free-photo/blue-background-watercolors-christmas_1048-3836.jpg?t=st=1733386142~exp=1733389742~hmac=5d68e572984b32a14c1781eec196a185520d90bc48dfb22f0e465f11346212d7&w=2000");
@@ -74,6 +74,12 @@
         color: rgb(122, 24, 215);
         font-family: Impact;
     }
+    .b2{
+        text-align: center;
+        border-radius: 10px;
+        color: rgb(215, 215, 24);
+        font-family: Impact;
+    }
     #demotext {
         color: hsl(0, 22%, 65%);
         text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
@@ -130,7 +136,7 @@
     }}
 
 @media only screen and (max-width: 800px){
-
+    bod
     .h1-1{
         color:rgb(126, 0, 175);
         text-align: center;
@@ -198,6 +204,12 @@
         text-align: center;
         border-radius: 10px;
         color: rgb(122, 24, 215);
+        font-family: Impact;
+    }
+    .b2{
+        text-align: center;
+        border-radius: 10px;
+        color: rgb(215, 215, 24);
         font-family: Impact;
     }
     #demotext {
