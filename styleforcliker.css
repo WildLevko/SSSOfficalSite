@@ -1,0 +1,37 @@
+.h1-4{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 40px;
+    border: 2px dashed whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+}
+.h1-1{
+    color:rgb(126, 0, 175);
+    text-align: center;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    margin-top: 260px;
+    font-family:'Courier New', Courier, monospace;
+}
+.click{
+    background-color: rgba(46, 70, 143, 0.51);
+    border-radius: 10px;
+    text-align: center;
+    border: 3px double rgba(0, 238, 255, 0.678);
+    position: absolute;
+    top: 51%;
+    width: 96%;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(17, 62, 64);
+    padding: 30px;
+}
+footer{
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
