@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1700px)
+@media only screen and (max-width: 8000px)
 {
     body{
         background-image: url("https://wallpapers.com/images/hd/cyber-background-wtbsuxgddl347htc.jpg");
@@ -125,7 +125,7 @@
     nav li ul{
         display: none;
         position: absolute;
-        left: 34%;
+        left: 30%;
         top: 96%;
         padding: 20px;
         width: 20%;
@@ -256,7 +256,7 @@
     nav li ul{
         display: none;
         position: absolute;
-        left: 34%;
+        left: 30%;
         top: 96%;
         padding: 20px;
         width: 20%;
