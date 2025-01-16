@@ -1,0 +1,1 @@
+document.getElementById("spisok2").style.background = "linear-gradient(green, lightgreen, green)";

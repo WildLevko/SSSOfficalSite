@@ -20,9 +20,9 @@ body{
     background-color: rgba(0, 0, 0, 0.384);
     border-radius: 10px;
 }
-.spisok2{
+#spisok2{
     text-align: left;
-    color:rgb(0, 247, 255);
+    color:rgb(18, 46, 4);
     font-family: monospace;
     font-size: 25px;
     margin-left: 100px;
