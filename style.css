@@ -134,6 +134,14 @@
         color: blueviolet;
         margin-top: 30%;
     }}
+    #tgimg{
+        justify-content: right;
+        animation: l1l1 0.8s infinite 
+    }
+    @keyframes l1l1{
+        0%, 100%{transform: scale(1);}
+        50%{transform: scale(1.3);}
+    }
 
 @media only screen and (max-width: 800px){
     .h1-1{
@@ -265,5 +273,11 @@
         color: blueviolet;
         margin-top: 30%;
     }}
-
-
+    #tgimg{
+        justify-content: right;
+        animation: l1l1 0.8s infinite 
+    }
+    @keyframes l1l1{
+        0%, 100%{transform: scale(1);}
+        50%{transform: scale(1.3);}
+    }
