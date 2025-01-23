@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148915127.jpg?semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.575);
+    border: 3px double white;
+}
