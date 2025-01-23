@@ -10,13 +10,13 @@ let mouseX = 0; // Для хранения координаты мыши
 let score = 0;
 let lives = 3; 
 const initialSpeed = 4; 
-const maxSpeed = 10; 
+const maxSpeed = 11; 
 let paddleResized = false; 
 
 // Керування клавішами
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight' || e.key === 'd') rightPressed = true;
-    if (e.key === 'ArrowLeft' || e.key === 'a') leftPressed = true;
+    if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'в' || e.key === 'в' || e.key === 'd') rightPressed = true;
+    if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'ф' || e.key === 'ф' || e.key === 'a') leftPressed = true;
 });
 
 document.addEventListener('keyup', (e) => {
