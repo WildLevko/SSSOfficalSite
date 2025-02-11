@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://bogatyr.club/uploads/posts/2023-01/1674804813_bogatyr-club-p-tekhno-fon-fon-krasivo-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1-1{
+    color:rgb(235, 224, 240);
+    text-align: center;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    margin-top: 120px;
+    font-family:'Courier New', Courier, monospace;
+}
+#map{
+    border-radius: 15px;
+    margin-left: 33%;
+}
+.h1-4{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 40px;
+    margin-left: 555px;
+    border: 2px dashed whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+}
