@@ -2,16 +2,19 @@
 const canvas = document.getElementById('qqq');
 const c = canvas.getContext('2d');
 
+// Перевірка на мобільний пристрій
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const speedMultiplier = isMobile ? 0.67 : 1; // 1.5x повільніше на мобільних
+
 // Змінні
 const paddle = { x: 350, width: 100, height: 10 };
-const balls = [{ x: 400, y: 300, radius: 10, dx: 4, dy: -4 }];
+const balls = [{ x: 400, y: 300, radius: 10, dx: 4 * speedMultiplier, dy: -4 * speedMultiplier }];
 let greenBall = null;
 let rightPressed = false, leftPressed = false;
-let mouseX = 0;
 let score = 0;
 let lives = 3;
-const initialSpeed = 4;
-const maxSpeed = 8;
+const initialSpeed = 4 * speedMultiplier;
+const maxSpeed = 8 * speedMultiplier;
 let paddleResized = false;
 let gameRunning = true;
 
@@ -26,27 +29,26 @@ document.addEventListener('keyup', (e) => {
     if (['ArrowLeft', 'a', 'ф'].includes(e.key)) leftPressed = false;
 });
 
-// Керування мишею
+// Керування мишею та дотиком
 canvas.addEventListener('mousemove', (e) => {
     const rect = canvas.getBoundingClientRect();
-    mouseX = e.clientX - rect.left;
-    paddle.x = Math.max(0, Math.min(mouseX - paddle.width / 2, canvas.width - paddle.width));
+    paddle.x = Math.max(0, Math.min(e.clientX - rect.left - paddle.width / 2, canvas.width - paddle.width));
 });
+
+canvas.addEventListener('touchmove', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const touchX = e.touches[0].clientX - rect.left;
+    paddle.x = Math.max(0, Math.min(touchX - paddle.width / 2, canvas.width - paddle.width));
+    e.preventDefault();
+}, { passive: false });
 
 // Малювання
 function drawRect(x, y, w, h) { c.fillStyle = 'white'; c.fillRect(x, y, w, h); }
-
-function drawCircle(x, y, r, color) {
-    c.beginPath();
-    c.arc(x, y, r, 0, Math.PI * 2);
-    c.fillStyle = color;
-    c.fill();
-}
-
+function drawCircle(x, y, r, color) { c.beginPath(); c.arc(x, y, r, 0, Math.PI * 2); c.fillStyle = color; c.fill(); }
 function drawText(text, x, y) { c.fillStyle = 'white'; c.font = '20px Cursive'; c.fillText(text, x, y); }
 
 function getRandomSpeed() {
-    const speed = Math.random() * (maxSpeed - initialSpeed) + initialSpeed;
+    const speed = (Math.random() * (maxSpeed - initialSpeed) + initialSpeed) * speedMultiplier;
     return Math.random() > 0.5 ? speed : -speed;
 }
 
@@ -59,28 +61,21 @@ function resetBall(ball) {
 
 function addNewBall() {
     if (balls.length < 2) {
-        balls.push({
-            x: canvas.width / 2,
-            y: canvas.height / 2,
-            radius: 10,
-            dx: getRandomSpeed(),
-            dy: getRandomSpeed()
-        });
+        balls.push({ x: canvas.width / 2, y: canvas.height / 2, radius: 10, dx: getRandomSpeed(), dy: getRandomSpeed() });
     }
 }
 
 function spawnGreenBall() {
-    if (score >= 25 && Math.random() < 0.5 && !greenBall) {
-        greenBall = { x: Math.random() * canvas.width, y: 0, radius: 10, dy: Math.random() * 4 + 6 };
+    if (score >= 0 && Math.random() < 0.5 && !greenBall) {
+        greenBall = { x: Math.random() * canvas.width, y: 0, radius: 10, dy: (Math.random() * 4 + 6) * speedMultiplier };
     }
 }
-
 setInterval(spawnGreenBall, 3000);
 
 function update() {
     if (!gameRunning) return;
 
-    balls.forEach((ball, index) => {
+    balls.forEach((ball) => {
         ball.x += ball.dx;
         ball.y += ball.dy;
 
@@ -89,16 +84,7 @@ function update() {
 
         if (ball.y > canvas.height - paddle.height && ball.x > paddle.x && ball.x < paddle.x + paddle.width) {
             ball.dy *= -1;
-            ball.dx = Math.min(Math.max(ball.dx - 1.0, -maxSpeed), maxSpeed);
-            ball.dy = Math.min(Math.max(ball.dy - 1.0, -maxSpeed), maxSpeed);
             score += 1;
-
-            if (Math.abs(ball.dx) >= maxSpeed && Math.abs(ball.dy) >= maxSpeed) {
-                balls.forEach((b) => {
-                    b.dx = initialSpeed * (b.dx > 0 ? 1 : -1);
-                    b.dy = initialSpeed * (b.dy > 0 ? 1 : -1);
-                });
-            }
         }
 
         if (ball.y > canvas.height) {
@@ -116,7 +102,7 @@ function update() {
     if (greenBall) {
         greenBall.y += greenBall.dy;
         if (greenBall.y > canvas.height - paddle.height && greenBall.x > paddle.x && greenBall.x < paddle.x + paddle.width) {
-            greenBall.dy = -5;
+            greenBall.dy = -5 * speedMultiplier;
             score += 1;
             if (Math.random() < 0.2) lives += 1;
             setTimeout(() => { greenBall = null; }, 500);
@@ -124,12 +110,6 @@ function update() {
         if (greenBall.y > canvas.height) {
             lives -= 1;
             greenBall = null;
-        }
-        if (lives<=0){
-    
-            gameRunning = false;
-                confirm(`Loss. Your score: ${score}`);
-                document.location.reload();
         }
     }
 
@@ -145,7 +125,6 @@ function update() {
 
 function draw() {
     if (!gameRunning) return;
-
     c.clearRect(0, 0, canvas.width, canvas.height);
     drawRect(paddle.x, canvas.height - paddle.height, paddle.width, paddle.height);
     balls.forEach((ball, index) => drawCircle(ball.x, ball.y, ball.radius, index === 0 ? 'blue' : 'red'));
@@ -155,5 +134,4 @@ function draw() {
     update();
     requestAnimationFrame(draw);
 }
-
 draw();
