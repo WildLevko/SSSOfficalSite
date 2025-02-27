@@ -211,6 +211,10 @@
         text-align: center; 
     }
 
+    .h1-2, .h1-3, .h1-4, .h1-5, .b1, .b2, .b3{
+        color:rgb(18, 207, 163);
+    }
+
     .TUTE {
         position: relative;
         display: block;
