@@ -198,7 +198,7 @@
     .h1-1{
         color:rgb(234, 146, 31);
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
         background: linear-gradient(rgba(255, 0, 0, 0.534), rgba(0, 0, 0, 0.534), rgba(255, 0, 0, 0.534));
         border-radius: 10px;
         margin-top: 15%;
@@ -285,7 +285,7 @@
     nav li{
         display: block;
         padding: 10px;
-        font-size: 8px;
+        font-size: 15px;
         border: 1px solid rgba(0, 0, 0, 0.226);
         border-radius: 10px;
     }
@@ -297,7 +297,7 @@
     
     nav a:hover{
         color:rgb(111, 2, 48);
-        font-size: 10px;
+        font-size: 18px;
     }
     nav a:active{
         color: brown;
