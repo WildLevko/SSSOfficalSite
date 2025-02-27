@@ -66,7 +66,7 @@ function addNewBall() {
 }
 
 function spawnGreenBall() {
-    if (score >= 0 && Math.random() < 0.5 && !greenBall) {
+    if (score >= 25 && Math.random() < 0.5 && !greenBall) {
         greenBall = { x: Math.random() * canvas.width, y: 0, radius: 10, dy: (Math.random() * 4 + 6) * speedMultiplier };
     }
 }
@@ -110,6 +110,12 @@ function update() {
         if (greenBall.y > canvas.height) {
             lives -= 1;
             greenBall = null;
+        }
+        if (lives<=0){
+    
+            gameRunning = false;
+                confirm(`Loss. Your score: ${score}`);
+                document.location.reload();
         }
     }
 
