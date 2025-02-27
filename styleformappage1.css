@@ -19,10 +19,13 @@ body{
 .h1-4{
     color:rgb(255, 255, 255);
     text-align: center;
+    justify-content: center;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.466);
     font-size: 40px;
-    margin-left: 555px;
+    position: absolute;
+    top: 450px;
+    left: 30px;
     border: 2px dashed whitesmoke;
     font-family:'Courier New', Courier, monospace;
 }

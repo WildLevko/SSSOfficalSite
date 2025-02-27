@@ -1,15 +1,15 @@
 @media only screen and (max-width: 8000px)
 {
     body{
-        background-image: url("https://wallpapers.com/images/hd/cyber-background-wtbsuxgddl347htc.jpg");
+        background-image: url("vesnafon1.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .h1-1{
-        color:rgb(126, 0, 175);
+        color:rgb(234, 146, 31);
         text-align: center;
         font-size: 70px;
-        background-color: rgba(0, 0, 0, 0.384);
+        background: linear-gradient(rgba(255, 0, 0, 0.534), rgba(0, 0, 0, 0.534), rgba(255, 0, 0, 0.534));
         border-radius: 10px;
         margin-top: 200px;
         font-family:'Courier New', Courier, monospace;
@@ -48,10 +48,12 @@
         left: 50px;
         top: 80px;
         font-size: 40px;
+        padding: 20px;
+        border-radius: 15px;
         font-family: cursive ;
-        background-color: rgba(172, 255, 227, 0.558);
-        border: 5px double rgb(106, 92, 234);
-        color:rgb(255, 183, 74);
+        background-color: rgba(130, 52, 21, 0.558);
+        border: 5px double rgb(234, 161, 92);
+        color:rgb(131, 238, 93);
         text-decoration: none;
     }
     .TUTE:hover{
@@ -71,14 +73,20 @@
     .b1{
         text-align: center;
         border-radius: 10px;
-        color: rgb(24, 91, 215);
-        font-family: Impact;
+        color: rgb(215, 24, 24);
+        font-family: cursive;
     }
     .b2{
         text-align: center;
         border-radius: 10px;
         color: rgb(215, 215, 24);
         font-family: Impact;
+    }
+    .b3{
+        text-align: center;
+        border-radius: 10px;
+        color: rgb(24, 104, 215);
+        font-family: cursive;
     }
     #demotext {
         color: hsl(0, 22%, 65%);
@@ -90,11 +98,11 @@
     }
     nav ul{
         display: flex;
-        background-color: rgba(46, 70, 143, 0.51);
+        background-color: rgba(143, 91, 46, 0.623);
         border-radius: 10px;
         justify-content: center;
         text-align: center;
-        border: 3px double rgba(0, 238, 255, 0.678);
+        border: 3px double rgba(255, 242, 0, 0.678);
         position: absolute;
         top: 45%;
         width: 96%;
@@ -108,7 +116,7 @@
     }
     nav li a{
         text-decoration: none;
-        color: rgb(98, 40, 231);
+        color: rgb(150, 207, 160);
         font-family: cursive ;
     }
     
@@ -133,7 +141,14 @@
     footer{
         color: blueviolet;
         margin-top: 30%;
-    }}
+        display: flex;
+    }
+    footer .vers{
+        background-color: rgba(206, 202, 202, 0.712);
+        padding: 20px;
+        font-family: cursive;
+        border-radius: 20px;
+    }
     #tgimg{
         justify-content: right;
         animation: l1l1 0.8s infinite; 
@@ -168,9 +183,9 @@
     .h1-1:hover{
         cursor: pointer;
         color: red;
-        animation: hph 4.5s 1;
+        animation: hph 4.0s 1;
     }
-    @keyframes hph{
-        0%{background-color: rgb(255, 1, 1);}
-        100%{background-color: rgba(0, 0, 0, 0.384);}
-    }
+    @keyframes hph {
+        0% { background-color: rgb(255, 0, 0); }
+        50% { background-color: rgba(255, 0, 0, 0.483); }
+        100% { background-color: rgba(255, 0, 0, 0); }}}

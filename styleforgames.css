@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148915127.jpg?semt=ais_hybrid");
+    background-image: url("https://cdn.pixabay.com/photo/2021/07/16/15/29/hellebore-6471156_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,8 +8,10 @@ body {
 canvas {
     display: block;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.575);
-    border: 3px double white;
+    background-color: rgba(217, 101, 52, 0.575);
+    border-radius: 10px;
+    border: 3px double rgb(228, 181, 81);
+    margin-bottom: 50px;
 }
 .h1-4{
     color:rgb(255, 255, 255);

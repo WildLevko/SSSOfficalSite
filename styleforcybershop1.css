@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://bogatyr.club/uploads/posts/2023-03/1679143008_bogatyr-club-p-fon-kriptovalyuta-foni-instagram-43.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/22/22/11/dandelion-1346727_1280.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -71,8 +71,8 @@ body{
     padding: 30px;
     text-align: center;
     color:rgb(255, 255, 0);
-    font-family: impact;
-    font-size: 60px;
+    font-family: cursive;
+    font-size: 30px;
     border: 3px dashed red;
     background-color: rgba(255, 81, 0, 0.277);
     
@@ -80,7 +80,7 @@ body{
 .conteiner1 .sp{
     padding: 50px;
     text-align: left;
-    color:rgb(2, 152, 17);;
+    color:rgb(5, 48, 8);;
     font-family: monospace;
     font-size: 27px;
     border: 2px solid rgb(0, 255, 213);
@@ -100,7 +100,7 @@ body{
 .conteiner1 .sp3{
     padding: 50px;
     text-align: center;
-    color:rgb(63, 90, 10);;
+    color:rgb(157, 219, 34);;
     font-family: impact;
     font-size: 27px;
     border: 2px solid rgb(241, 199, 136);
