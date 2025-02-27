@@ -191,6 +191,7 @@
         100% { background-color: rgba(255, 0, 0, 0); }}}
 @media only screen and (max-width: 1050px) {
     body {
+        background-image: url("vesnafontl1.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
