@@ -70,7 +70,7 @@ function addNewBall() {
 }
 
 function spawnGreenBall() {
-    if (score >= 0 && Math.random() < 0.5 && !greenBall) {
+    if (score >= 25 && Math.random() < 0.5 && !greenBall) {
         greenBall = { x: Math.random() * canvas.width, y: 0, radius: 10, dy: Math.random() * 4 + 6 };
     }
 }
