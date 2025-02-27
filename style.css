@@ -11,7 +11,7 @@
         font-size: 70px;
         background: linear-gradient(rgba(255, 0, 0, 0.534), rgba(0, 0, 0, 0.534), rgba(255, 0, 0, 0.534));
         border-radius: 10px;
-        margin-top: 200px;
+        margin-top: 15%;
         font-family:'Courier New', Courier, monospace;
     }
     .h1-2{
@@ -201,7 +201,7 @@
         font-size: 30px;
         background: linear-gradient(rgba(255, 0, 0, 0.534), rgba(0, 0, 0, 0.534), rgba(255, 0, 0, 0.534));
         border-radius: 10px;
-        margin-top: 200px;
+        margin-top: 15%;
         font-family:'Courier New', Courier, monospace;
     }
     .h1-2{
