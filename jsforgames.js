@@ -36,6 +36,13 @@ canvas.addEventListener('mousemove', (e) => {
     paddle.x = Math.max(0, Math.min(mouseX - paddle.width / 2, canvas.width - paddle.width));
 });
 
+canvas.addEventListener('touchmove', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const touchX = e.touches[0].clientX - rect.left;
+    paddle.x = Math.max(0, Math.min(touchX - paddle.width / 2, canvas.width - paddle.width));
+    e.preventDefault(); 
+});
+
 
 function drawRect(x, y, w, h) { c.fillStyle = 'white'; c.fillRect(x, y, w, h); }
 function drawCircle(x, y, r, color) { c.beginPath(); c.arc(x, y, r, 0, Math.PI * 2); c.fillStyle = color; c.fill(); }
