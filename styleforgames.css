@@ -13,13 +13,18 @@ canvas {
     border: 3px double rgb(228, 181, 81);
     margin-bottom: 50px;
 }
-.h1-4{
+footer .h1-4{
     color:rgb(255, 255, 255);
     text-align: center;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.466);
     font-size: 40px;
-    margin-left: 555px;
     border: 2px dashed whitesmoke;
     font-family:'Courier New', Courier, monospace;
+}
+footer{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
