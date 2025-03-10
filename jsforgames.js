@@ -671,13 +671,13 @@ function storymod(){
                     score += 1;
                     blackBall = null;
                 }}
-    
+            }
         if (rightPressed && paddle.x < canvas.width - paddle.width) paddle.x += 7;
         if (leftPressed && paddle.x > 0) paddle.x -= 7;
         
         if (score >= 60 && level === 1) { 
             score = 0;
-            level = 2;
+            
             lives = 3;
             alert(`You have moved to level 2! Code for this level: WWqqoohGsdhrykkjdhl1`);
             showBall(); 
@@ -715,7 +715,7 @@ function storymod(){
         }
         
         
-        if (score >= 100 && level === 2) {
+        if (score === 100 && level === 2) {
             score = 0;
             level = 3;
             lives = 3;
@@ -942,7 +942,7 @@ function storymod(){
         
                 }, 500); 
             }
-        }}
+        }
     
     function draw() {
         if (!gameRunning) return;
